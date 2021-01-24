@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/official-website/static/css/main.2b44c669.chunk.css",
+    "main.css": "/official-website/static/css/main.0e7d4f84.chunk.css",
     "main.js": "/official-website/static/js/main.81d30b60.chunk.js",
     "main.js.map": "/official-website/static/js/main.81d30b60.chunk.js.map",
     "runtime-main.js": "/official-website/static/js/runtime-main.e8d57439.js",
@@ -14,7 +14,7 @@
     "service-worker.js": "/official-website/service-worker.js",
     "service-worker.js.map": "/official-website/service-worker.js.map",
     "static/css/2.6526369a.chunk.css.map": "/official-website/static/css/2.6526369a.chunk.css.map",
-    "static/css/main.2b44c669.chunk.css.map": "/official-website/static/css/main.2b44c669.chunk.css.map",
+    "static/css/main.0e7d4f84.chunk.css.map": "/official-website/static/css/main.0e7d4f84.chunk.css.map",
     "static/js/2.29fe6fc3.chunk.js.LICENSE.txt": "/official-website/static/js/2.29fe6fc3.chunk.js.LICENSE.txt",
     "static/media/GamudaCalendarClub1819.eb5df8eb.JPG": "/official-website/static/media/GamudaCalendarClub1819.eb5df8eb.JPG",
     "static/media/MASCANSW-logo.acc95881.png": "/official-website/static/media/MASCANSW-logo.acc95881.png",
@@ -49,7 +49,7 @@
     "static/js/runtime-main.e8d57439.js",
     "static/css/2.6526369a.chunk.css",
     "static/js/2.29fe6fc3.chunk.js",
-    "static/css/main.2b44c669.chunk.css",
+    "static/css/main.0e7d4f84.chunk.css",
     "static/js/main.81d30b60.chunk.js"
   ]
 }
