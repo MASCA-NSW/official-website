@@ -1,0 +1,47 @@
+.socmed-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa {
+  margin: 0 1rem;
+  padding: 1rem;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-email {
+  background: #fdb041;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .socmed-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .fa {
+    margin: initial;
+  }
+}

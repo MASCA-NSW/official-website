@@ -1,0 +1,24 @@
+.memory-lanes-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.memory-lanes {
+  width: 24.6vw;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .memory-lanes-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .memory-lanes {
+    height: 30vh;
+    width: 100vw;
+    object-fit: cover;
+    display: block;
+  }
+}

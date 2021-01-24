@@ -1,0 +1,106 @@
+a {
+  text-decoration: none;
+  /* color: whitesmoke; */
+}
+
+button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 3rem;
+  background-image: url('./images/commRetreat1718a.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+img.logo {
+  width: 3rem;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: flex;
+}
+
+.container {
+  margin: 0 1rem;
+  min-width: 50vw;
+}
+
+.photo-credit {
+  padding: 1rem;
+  border-radius: 1rem;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: whitesmoke;
+  }
+
+  /* .app {
+    text-align: left;
+  } */
+  
+  .about-header {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('./images/photoshoot1920b.Jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+  
+  img.logo {
+    width: 3rem;
+  }
+
+  .mobile-only {
+    display: flex;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .container {
+    margin: 0 1rem;
+    /* margin: 0; */
+  }
+
+  .photo-credit {
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+  }
+}

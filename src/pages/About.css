@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+  .about-header {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('./images/photoshoot1920b.Jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+
+  .greetings {
+    align-self: flex-end;
+  }
+}
+  
