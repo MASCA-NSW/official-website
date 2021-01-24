@@ -1,6 +1,5 @@
 a {
   text-decoration: none;
-  /* color: whitesmoke; */
 }
 
 button {
@@ -31,7 +30,8 @@ button {
 }
 
 img.logo {
-  width: 3rem;
+  height: 2em;
+  width: 2em;
 }
 
 .mobile-only {
@@ -95,7 +95,6 @@ img.logo {
 
   .container {
     margin: 0 1rem;
-    /* margin: 0; */
   }
 
   .photo-credit {
