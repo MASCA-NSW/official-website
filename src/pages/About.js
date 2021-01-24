@@ -9,10 +9,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 // our own components
-import logo from '../images/MASCANSW-logo.png';
 import Navbar from '../components/Navbar';
 import CouncilMemberCard from '../components/CouncilMemberCard';
 import Alert from '../components/Alert';
+import Footer from '../components/Footer';
 
 // images
 import officer1 from '../images/current-council/officer1.jpg';
@@ -92,22 +92,7 @@ export default function About() {
           Past Councils
         </Link>
       </div>
-      <footer className="about-footer">
-        <div className="top-about-footer-content">
-          <div>
-            <h3 className="blood-red"><FontAwesomeIcon icon={faMapMarkerAlt} /> Headquarters</h3>
-            <span className="hq">2A Alison Rd<br />Randwick, 2031<br />Australia</span>
-          </div>
-          <div>
-            <h3 className="energetic-yellow"><FontAwesomeIcon icon={faEnvelope} /> Contact Email</h3>
-            <span className="contact-email">admin@nsw.masca.org.au</span>
-          </div>
-        </div>
-        <div className="bottom-about-footer-content">
-          <p>MASCA NSW 20/21 <FontAwesomeIcon icon={faCopyright} /></p>
-          <p>Made with <FontAwesomeIcon icon={faHeart}/> using React</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

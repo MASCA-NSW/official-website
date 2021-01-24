@@ -1,29 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faBars,
-  faMapMarkerAlt,
-  faEnvelope,
   faWaveSquare,
   faGraduationCap,
   faDove,
-  faHandshake,
-  faHeart,
-  faCopyright,
-  faMoon,
-  faTimes,
-  faSortDown
+  faHandshake
 } from '@fortawesome/free-solid-svg-icons';
-import Typewriter from 'typewriter-effect';
-import Collapsible from 'react-collapsible';
 
 // our own components
-import logo from '../images/MASCANSW-logo.png';
+import Navbar from '../components/Navbar';
 import HomeTitle from '../components/HomeTitle';
 import MemoryLane from '../components/MemoryLane';
 import AffiliatesSponsors from '../components/AffiliatesSponsors';
 import SocmedLinks from '../components/SocmedLinks';
+import Footer from '../components/Footer';
 
 // images
 // import commRetreat1819b from '../images/commRetreat1819b.jpg';
@@ -49,155 +38,7 @@ import './Home.css';
 export default function Home() {
   return (
     <div>
-      <header className="home-header">
-        <h1 className="mobile-only">
-          <img src={logo} className="logo" alt="Official MASCA NSW Logo" />
-        </h1>
-        <div className="navbar desktop-only">
-          <Link to="/">
-            <img src={logo} className="logo" alt="Official MASCA NSW Logo" />
-          </Link>
-          <div className="dropdown">
-            <Link to="/about">
-              <p>About</p>
-            </Link>
-            <div className="dropdown-content">
-              <Link to="/past-council">
-                <p>Past Council</p>
-              </Link>
-            </div>
-          </div>
-          <Link to="/events">
-            <p>Events</p>
-          </Link>
-          <div className="dropdown">
-            <Link to="/initiatives">
-              <p>Initiatives</p>
-            </Link>
-            <div className="dropdown-content">
-              <Link to="/welfare-initiatives"><p>Student Welfare</p></Link>
-              <Link to="/careers-initiatives"><p>Careers & Development</p></Link>
-              <Link to="/cultural-initiatives"><p>Cultural</p></Link>
-              <Link to="/sports-initiatives"><p>Sports</p></Link>
-              <Link to="/officers-program"><p>Officers Program</p></Link>
-              <Link to="/student-discounts"><p>Student Discounts</p></Link>
-            </div>
-          </div>
-          <div className="dropdown">
-            <Link to="student-guide"><p>Student Guide</p></Link>
-            <div className="dropdown-content">
-              <Link to="/starter-kit"><p>Australia Starter Kit</p></Link>
-              <Link to="/jalan-jalan"><p>Jalan-Jalan</p></Link>
-              <Link to="/cari-makan"><p>Cari Makan</p></Link>
-            </div>
-          </div>
-          <Link to="/affiliates-sponsors"><p>Affiliates & Sponsors</p></Link>
-          <button className="dark-mode-button"><FontAwesomeIcon icon={faMoon}/></button>
-        </div>
-        <div className="greetings-container">
-          <span className="greetings">
-            <Typewriter
-              options={{
-                strings: ['Hello', 'Hai', '你好', 'Vanakkam'],
-                autoStart: true,
-                loop: true
-              }}
-            />
-          </span>
-          <span className="masca-full-name">
-            MALAYSIAN STUDENTS'<br/>COUNCIL OF AUSTRALIA
-          </span>
-          <h3 className="energetic-yellow">
-            New South Wales Chapter
-          </h3>
-        </div>
-        <h1 className="mobile-only">
-          <button onClick={() => {
-            document.getElementById("mobile-navbar-content").classList.add("show");
-          }}>
-            <FontAwesomeIcon icon={faBars} />
-          </button>
-        </h1>
-        <div id="mobile-navbar-content" className="mobile-only">
-          <h1 className="close-mobile-navbar">
-            <button className="dark-blue" onClick={() => {
-              document.getElementById("mobile-navbar-content").classList.remove("show");
-            }}>
-              <FontAwesomeIcon icon={faTimes} />
-            </button>
-          </h1>
-          <Collapsible
-            trigger={
-              <p>
-                About <FontAwesomeIcon icon={faSortDown} className="margined-bottom" />
-              </p>
-            }
-          >
-            <Link to="/about">
-              <p>Current Council</p>
-            </Link>
-            <Link to="/past-council">
-              <p>Past Council</p>
-            </Link>
-          </Collapsible>
-          <Link to="/events">
-            <p>Events</p>
-          </Link>
-          <Collapsible
-            trigger={
-              <p>
-                Initiatives <FontAwesomeIcon icon={faSortDown} className="margined-bottom" />
-              </p>
-            }
-          >
-            <Link to="/initiatives">
-              <p>All Initiatives</p>
-            </Link>
-            <Link to="/welfare-initiatives">
-              <p>Student Welfare</p>
-            </Link>
-            <Link to="/careers-initiatives">
-              <p>Careers & Development</p>
-            </Link>
-            <Link to="/cultural-initiatives">
-              <p>Cultural</p>
-            </Link>
-            <Link to="/sports-initiatives">
-              <p>Sports</p>
-            </Link>
-            <Link to="/officers-program">
-              <p>Officers Program</p>
-            </Link>
-            <Link to="/student-discounts">
-              <p>Student Discounts</p>
-            </Link>
-          </Collapsible>
-          <Collapsible
-            trigger={
-              <p>
-                Student Guide <FontAwesomeIcon icon={faSortDown} className="margined-bottom" /> 
-              </p>
-            }
-          >
-            <Link to="/student-guide">
-              <p>All Guides</p>
-            </Link>
-            <Link to="/starter-kit">
-              <p>Australia Starter Kit</p>
-            </Link>
-            <Link to="/jalan-jalan">
-              <p>Jalan-Jalan</p>
-            </Link>
-            <Link to="/cari-makan">
-              <p>Cari Makan</p>
-            </Link>
-          </Collapsible>
-          <Link to="/affiliates-sponsors">
-            <p>Affiliates and Sponsors</p>
-          </Link>
-          <p><button className="dark-mode-button"><FontAwesomeIcon icon={faMoon}/></button></p>
-        </div>
-      </header>
+      <Navbar parentClassName="home-header" />
       <HomeTitle
         string='We are charting the way for Malaysians Down Under'
         delay={50}
@@ -254,22 +95,7 @@ export default function Home() {
       />
       <AffiliatesSponsors />
       <SocmedLinks />
-      <footer className="home-footer">
-        <div className="top-home-footer-content">
-          <div>
-            <h3 className="blood-red"><FontAwesomeIcon icon={faMapMarkerAlt} /> Headquarters</h3>
-            <span className="hq">2A Alison Rd<br />Randwick, 2031<br />Australia</span>
-          </div>
-          <div>
-            <h3 className="energetic-yellow"><FontAwesomeIcon icon={faEnvelope} /> Contact Email</h3>
-            <span className="contact-email">admin@nsw.masca.org.au</span>
-          </div>
-        </div>
-        <div className="bottom-home-footer-content">
-          <p>MASCA NSW 20/21 <FontAwesomeIcon icon={faCopyright} /></p>
-          <p>Made with <FontAwesomeIcon icon={faHeart}/> using React</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

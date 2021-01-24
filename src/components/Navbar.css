@@ -33,6 +33,14 @@
   display: block;
 }
 
+.dark-mode-button {
+  color: #242671;
+}
+
+.margined-bottom {
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 600px) {
   #mobile-navbar-content {
     position: absolute;
@@ -69,5 +77,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .dark-mode-button {
+    color: #242671;
   }
 }
