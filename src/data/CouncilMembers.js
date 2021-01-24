@@ -66,7 +66,7 @@ const councilMembers = [
     imageSource: null,
     portfolio: "Corporate Relations Director",
     name: "Evaleez Voo",
-    course: "Undergrad",
+    course: "Bachelor of Economics",
     uni: "UNSW"
   },
   {
