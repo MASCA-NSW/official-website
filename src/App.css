@@ -54,33 +54,6 @@ img.logo {
 }
 
 @media screen and (max-width: 600px) {
-  button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: whitesmoke;
-  }
-
-  /* .app {
-    text-align: left;
-  } */
-  
-  .about-header {
-    min-height: 50vh;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 0 1rem;
-    background-image: url('./images/photoshoot1920b.Jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-  }
-  
   img.logo {
     width: 3rem;
   }

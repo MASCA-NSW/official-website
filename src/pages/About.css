@@ -1,20 +1,182 @@
+.about-header {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/photoshoot1920a.Jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.about-masca {
+  margin: 10vh 3rem 0 3rem;
+  text-align: justify;
+}
+
+.about-masca-title {
+  text-align: center;
+}
+
+.current-directors {
+  margin: 10vh 0 0 0;
+  padding: 1rem 0;
+  background-color: #fdb041;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-directors-pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.current-officers {
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-officers-pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.past-council-link {
+  background-color: #242671;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: whitesmoke;
+}
+
+.about-footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  min-height: 30vh;
+  background-color: #242671;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-about-footer-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottom-about-footer-content {
+  flex: 2;
+}
+
+.hq {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.contact-email {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 @media screen and (max-width: 600px) {
   .about-header {
+    max-width: 100vw;
     min-height: 50vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     padding: 0 1rem;
-    background-image: url('./images/photoshoot1920b.Jpeg');
+    background-image: url('../images/photoshoot1920b.Jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #242671;
     color: white;
   }
 
-  .greetings {
-    align-self: flex-end;
+  .about-masca {
+    margin: 10vh 1rem 0 1rem;
+    text-align: justify;
+  }
+
+  .about-masca-title {
+    text-align: center;
+  }
+
+  .current-directors {
+    margin: 10vh 0 0 0;
+    padding: 1rem 0;
+    background-color: #fdb041;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .current-directors-pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .current-officers {
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .current-officers-pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    min-height: 30vh;
+    background-color: #242671;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-about-footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom-about-footer-content {
+    flex: 2;
+  }
+
+  .hq {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .contact-email {
+    font-weight: bold;
+    font-size: 1.5em;
   }
 }
   

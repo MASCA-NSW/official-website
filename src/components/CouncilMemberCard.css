@@ -1,0 +1,63 @@
+.council-member-card {
+  width: 17vw;
+  height: initial;
+  padding: 1rem;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.council-member-card:hover {
+  opacity: 0.6;
+}
+
+.council-member-pic {
+  width: 15vw;
+  height: 15vw;
+  clip-path: circle(50%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.council-member-pic img {
+  width: 30vw;
+}
+
+@media screen and (max-width: 600px) {
+  .council-member-card {
+    width: 80vw;
+    height: initial;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .council-member-card:hover {
+    opacity: 0.6;
+  }
+  
+  .council-member-pic {
+    width: 50vw;
+    height: 50vw;
+    clip-path: circle(50%);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .council-member-pic img {
+    width: 100vw;
+  }
+}

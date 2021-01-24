@@ -1,0 +1,19 @@
+.alert-card {
+  width: 70vw;
+  padding: 1rem;
+  background-color: #bd1e2b;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 1rem;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+  .alert-card {
+    width: 80vw;
+    padding: 1rem;
+    background-color: #bd1e2b;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    color: whitesmoke;
+  }
+}
