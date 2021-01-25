@@ -33,43 +33,51 @@ export default function PastCouncil() {
       <Navbar parentClassName="past-council-header" />
       <PastCouncilYear
         parentClassName="past-council-1920"
-        whichCouncil={PastCouncilMembers1920}
+        whichYear="2019/2020"
         councilPicture={photoshoot1920a}
+        whichCouncil={PastCouncilMembers1920}
       />
       <PastCouncilYear
         parentClassName="past-council-1819"
-        whichCouncil={PastCouncilMembers1819}
+        whichYear="2018/2019"
         councilPicture={photoshoot1819a}
+        whichCouncil={PastCouncilMembers1819}
       />
       <PastCouncilYear
         parentClassName="past-council-1718"
-        whichCouncil={PastCouncilMembers1718}
+        whichYear="2017/2018"
         councilPicture={photoshoot1718a}
+        whichCouncil={PastCouncilMembers1718}
       />
       <PastCouncilYear
         parentClassName="past-council-1617"
-        whichCouncil={PastCouncilMembers1617}
+        whichYear="2016/2017"
         councilPicture={photoshoot1617a}
+        whichCouncil={PastCouncilMembers1617}
       />
       <PastCouncilYear
         parentClassName="past-council-1516"
-        whichCouncil={PastCouncilMembers1516}
+        whichYear="2015/2016"
         councilPicture={photoshoot1516a}
+        whichCouncil={PastCouncilMembers1516}
       />
       <PastCouncilYear
         parentClassName="past-council-1415"
-        whichCouncil={PastCouncilMembers1415}
+        whichYear="2014/2015"
         councilPicture={photoshoot1415a}
+        whichCouncil={PastCouncilMembers1415}
       />
       <PastCouncilYear
         parentClassName="past-council-1314"
-        whichCouncil={PastCouncilMembers1314}
+        whichYear="2013/2014"
         councilPicture={photoshoot1314a}
+        whichCouncil={PastCouncilMembers1314}
       />
       <PastCouncilYear
         parentClassName="past-council-1213"
-        whichCouncil={PastCouncilMembers1213}
+        whichYear="2012/2013"
         councilPicture={photoshoot1213a}
+        whichCouncil={PastCouncilMembers1213}
       />
       <Footer />
     </div>

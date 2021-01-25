@@ -6,13 +6,11 @@ import PastCouncilMember from '../components/PastCouncilMember';
 // stylesheets
 import './PastCouncilYear.css'
 
-const currentYear = new Date().getFullYear();
-
-export default function PastCouncilYear({ parentClassName, whichCouncil, councilPicture }) {
+export default function PastCouncilYear({ parentClassName, whichYear, councilPicture, whichCouncil }) {
   return (
     <div className={parentClassName}>
       <div className={`${parentClassName}-content`}>
-        <h2>The Council {currentYear - 3}/{currentYear - 2}</h2>
+        <h2>The Council {whichYear}</h2>
         <img src={councilPicture} className="past-council-pics mobile-only" />
         {
           whichCouncil.map((member) => {
