@@ -6,6 +6,7 @@ import PastCouncilYear from '../components/PastCouncilYear';
 import Footer from '../components/Footer';
 
 // images
+import photoshoot1920a from '../images/photoshoot1920a.Jpeg';
 import photoshoot1819a from '../images/photoshoot1819a.jpg';
 import photoshoot1718a from '../images/photoshoot1718a.jpg';
 import photoshoot1617a from '../images/photoshoot1617a.webp';
@@ -15,6 +16,7 @@ import photoshoot1314a from '../images/photoshoot1314a.webp';
 import photoshoot1213a from '../images/photoshoot1213a.webp';
 
 // data
+import PastCouncilMembers1920 from '../data/PastCouncilMembers1920';
 import PastCouncilMembers1819 from '../data/PastCouncilMembers1819';
 import PastCouncilMembers1718 from '../data/PastCouncilMembers1718';
 import PastCouncilMembers1617 from '../data/PastCouncilMembers1617';
@@ -30,9 +32,9 @@ export default function PastCouncil() {
     <div>
       <Navbar parentClassName="past-council-header" />
       <PastCouncilYear
-        parentClassName="past-council-1819"
-        whichCouncil={PastCouncilMembers1819}
-        councilPicture={photoshoot1819a}
+        parentClassName="past-council-1920"
+        whichCouncil={PastCouncilMembers1920}
+        councilPicture={photoshoot1920a}
       />
       <PastCouncilYear
         parentClassName="past-council-1819"
