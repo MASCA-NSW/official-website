@@ -10,3 +10,5 @@ MASCA NSW's official website
 - [ ] Implement dark-mode
 - [ ] Implement flip animation for CouncilMemberCard in About page
 - [ ] Insert infos (contact emails, hobbies) at the back of CouncilMemberCard
+- [ ] Implement this feature: when someone hovers the name of a past council member, it shows where the person is in the picture
+- [ ] Fix margin issue of Footer in Past Council page

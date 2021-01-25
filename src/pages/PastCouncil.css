@@ -1,0 +1,125 @@
+.past-council-header {
+  max-width: 100vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/ccc1819a.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.past-council-1819 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+  background-color: #fdb041;
+}
+
+.past-council-1819-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.past-council-1718 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+}
+
+.past-council-1718-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.past-council-1617 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+  background-color: #242671;
+}
+
+.past-council-1617-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.past-council-1516 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+}
+
+.past-council-1516-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.past-council-1415 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+  background-color: #bd1e2b;
+}
+
+.past-council-1415-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.past-council-1314 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+}
+
+.past-council-1314-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.past-council-1213 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+  background-color: #fdb041;
+}
+
+.past-council-1213-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .past-council-header {
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('../images/ccc1819a.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+  }
+}
