@@ -11,7 +11,7 @@ export default function EventCard({ eventImage, eventName, eventDate, eventTime,
       <p>{ eventDate }</p>
       <p>{ eventTime }</p>
       <p>{ eventVenue }</p>
-      <button className="rsvp-button">RSVP</button>
+      {/* <button className="rsvp-button">RSVP</button> */}
     </div>
   )
 }
