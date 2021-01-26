@@ -1,5 +1,4 @@
 .footer {
-  margin-top: 3rem;
   padding: 1rem;
   min-height: 30vh;
   background-color: #242671;
@@ -48,7 +47,6 @@
 
 @media screen and (max-width: 600px) {
   .footer {
-    margin-top: 3rem;
     padding: 1rem;
     min-height: 30vh;
     background-color: #242671;

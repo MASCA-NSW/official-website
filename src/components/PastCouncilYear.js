@@ -10,7 +10,7 @@ export default function PastCouncilYear({ parentClassName, whichYear, councilPic
   return (
     <div className={parentClassName}>
       <div className={`${parentClassName}-content`}>
-        <h2>The Council {whichYear}</h2>
+        <h2 className={`${parentClassName}-title`}>The Council {whichYear}</h2>
         <img src={councilPicture} className="past-council-pics mobile-only" />
         {
           whichCouncil.map((member) => {

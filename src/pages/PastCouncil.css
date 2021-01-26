@@ -25,6 +25,10 @@
   flex: 1;
 }
 
+.past-council-1920-title {
+  color: #242671;
+}
+
 .past-council-1819 {
   display: flex;
   flex-direction: row;
@@ -37,6 +41,11 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  color: #242671;
+}
+
+.past-council-1819-title {
+  color: #bd1e2b;
 }
 
 .past-council-1718 {
@@ -64,6 +73,11 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  color: #242671;
+}
+
+.past-council-1617-title {
+  color: whitesmoke;
 }
 
 .past-council-1516 {
@@ -77,6 +91,11 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  color: #242671;
+}
+
+.past-council-1516-title {
+  color: #bd1e2b;
 }
 
 .past-council-1415 {
@@ -93,6 +112,10 @@
   flex: 1;
 }
 
+.past-council-1415-title {
+  color: #fdb041;
+}
+
 .past-council-1314 {
   display: flex;
   flex-direction: row;
@@ -104,6 +127,11 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  color: #242671;
+}
+
+.past-council-1314-title {
+  color: #bd1e2b;
 }
 
 .past-council-1213 {
@@ -118,6 +146,10 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.past-council-1213-title {
+  color: #242671;
 }
 
 @media screen and (max-width: 600px) {
