@@ -1,0 +1,116 @@
+.sw-header {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/ccu1718a.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.sw-body {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.welfare-initiatives {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.welfare-initiatives-logos {
+  width: 10vw;
+  display: block;
+  margin: auto;
+}
+
+.koala {
+  text-align: justify;
+  padding: 2rem;
+  background-color: #bd1e2b;
+  width: 25vw;
+  height: 70vh;
+  font-size: small;
+}
+
+.kopi-talk {
+  text-align: justify;
+  padding: 2rem;
+  background-color: #242671;
+  width: 25vw;
+  height: 70vh;
+  font-size: small;
+}
+
+.meet-n-greet {
+  text-align: justify;
+  padding: 2rem;
+  background-color: #fdb041;
+  width: 25vw;
+  height: 70vh;
+  font-size: small;
+}
+
+@media screen and (max-width: 600px) {
+  .sw-header {
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('../images/ccu1718a.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242671;
+    color: white;
+  }
+
+  .welfare-initiatives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welfare-initiatives-logos {
+    width: 50vw;
+    display: block;
+    margin: auto;
+  }
+  
+  .koala {
+    text-align: justify;
+    padding: 2rem;
+    background-color: #bd1e2b;
+    width: 70vw;
+    height: initial;
+    font-size: small;
+  }
+  
+  .kopi-talk {
+    text-align: justify;
+    padding: 2rem;
+    background-color: #242671;
+    width: 70vw;
+    height: initial;
+    font-size: small;
+  }
+  
+  .meet-n-greet {
+    text-align: justify;
+    padding: 2rem;
+    background-color: #fdb041;
+    width: 70vw;
+    height: initial;
+    font-size: small;
+  }
+}

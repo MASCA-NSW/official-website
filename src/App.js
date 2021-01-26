@@ -6,7 +6,7 @@ import About from './pages/About';
 import PastCouncil from './pages/PastCouncil';
 import Events from './pages/Events';
 import Initiatives from './pages/Initiatives';
-
+import StudentWelfare from './pages/StudentWelfare';
 import StudentDiscounts from './pages/StudentDiscounts';
 
 import './App.css';
@@ -21,7 +21,7 @@ function App() {
           <Route path="/past-council" component={PastCouncil} />
           <Route path="/events" component={Events} />
           <Route path="/initiatives" component={Initiatives} />
-          <Route path="/welfare-initiatives" />
+          <Route path="/welfare-initiatives" component={StudentWelfare} />
           <Route path="/careers-initiatives" />
           <Route path="/cultural-initiatives" />
           <Route path="/sports-initiatives" />
