@@ -7,6 +7,8 @@ import PastCouncil from './pages/PastCouncil';
 import Events from './pages/Events';
 import Initiatives from './pages/Initiatives';
 
+import StudentDiscounts from './pages/StudentDiscounts';
+
 import './App.css';
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
           <Route path="/cultural-initiatives" />
           <Route path="/sports-initiatives" />
           <Route path="/officers-program" />
-          <Route path="/student-discounts" />
+          <Route path="/student-discounts" component={StudentDiscounts} />
           <Route path="/student-guide" />
           <Route path="/starter-kit" />
           <Route path="/jalan-jalan" />

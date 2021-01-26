@@ -1,0 +1,40 @@
+.sd-header {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/commRetreat1819b.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+.sd-body {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sd-image {
+  width: 60vw;
+}
+
+@media screen and (max-width: 600px) {
+  .sd-header {
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('../images/thinktank1617f.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242671;
+    color: white;
+  }
+}
