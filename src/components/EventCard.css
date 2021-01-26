@@ -1,0 +1,28 @@
+.event-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-content: flex-start; */
+  justify-content: flex-start;
+  border: 1px #242671 solid;
+  width: 25vw;
+  height: initial;
+  padding: 0 0 1rem 0;
+}
+
+.event-image {
+  width: 25vw;
+}
+
+.event-name {
+  color: #242671;
+}
+
+.rsvp-button {
+  color: #242671;
+  border: 1px #242671 solid;
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 10vw;
+}

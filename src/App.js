@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import PastCouncil from './pages/PastCouncil';
+import Events from './pages/Events';
 
 import './App.css';
 
@@ -15,7 +16,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/past-council" component={PastCouncil} />
-          <Route path="/events" />
+          <Route path="/events" component={Events} />
           <Route path="/initiatives" />
           <Route path="/welfare-initiatives" />
           <Route path="/careers-initiatives" />
