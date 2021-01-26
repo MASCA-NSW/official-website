@@ -30,11 +30,15 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 0 1rem;
-    background-image: url('../images/thinktank1617f.JPG');
+    background-image: url('../images/commRetreat1819b.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: #242671;
     color: white;
+  }
+
+  .sd-image {
+    width: 80vw;
   }
 }
