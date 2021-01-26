@@ -8,6 +8,7 @@ import EventCard from '../components/EventCard';
 
 // images
 import agm from '../images/agm1920a.png';
+import gamuda from '../images/GamudaCalendarClub1819.JPG';
 import thinktank from '../images/thinktank1617d.JPG';
 
 // stylesheets
@@ -31,11 +32,11 @@ export default function Events() {
           className="event-cards"
         />
         <EventCard
-          eventImage={thinktank}
-          eventName="Think Tank"
-          eventDate="Sunday, 6th October 2019"
-          eventTime="10:00 am – 4:00 pm"
-          eventVenue="University of Technology Sydney, 15 Broadway, Ultimo NSW 2007, Australia"
+          eventImage={gamuda}
+          eventName="Career Engagement"
+          eventDate="Monday, 7th October 2019"
+          eventTime="10:00 am – 5:00 pm"
+          eventVenue="Location - TBC"
           className="event-cards"
         />
         <EventCard
