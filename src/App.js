@@ -8,6 +8,7 @@ import Events from './pages/Events';
 import Initiatives from './pages/Initiatives';
 import StudentWelfare from './pages/StudentWelfare';
 import CareersDevelopment from './pages/CareersDevelopment';
+import CulturalInitiatives from './pages/CulturalInitiatives';
 
 import StudentDiscounts from './pages/StudentDiscounts';
 
@@ -25,7 +26,7 @@ function App() {
           <Route path="/initiatives" component={Initiatives} />
           <Route path="/welfare-initiatives" component={StudentWelfare} />
           <Route path="/careers-initiatives" component={CareersDevelopment} />
-          <Route path="/cultural-initiatives" />
+          <Route path="/cultural-initiatives" component={CulturalInitiatives} />
           <Route path="/sports-initiatives" />
           <Route path="/officers-program" />
           <Route path="/student-discounts" component={StudentDiscounts} />

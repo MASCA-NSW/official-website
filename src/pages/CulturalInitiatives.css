@@ -1,0 +1,49 @@
+.cultural-initiatives-header {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/dragonBoating1617a.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.cultural-initiatives-body {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cultural-initiatives {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.makanmain {
+  text-align: justify;
+  padding: 2rem;
+  background-color: #bd1e2b;
+}
+
+@media screen and (max-width: 600px) {
+  .cultural-initiatives-header {
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('../images/dragonBoating1617a.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242671;
+    color: white;
+  }
+}
