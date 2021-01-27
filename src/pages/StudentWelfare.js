@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 
 // images
 import koala from '../images/logo/koala-logo.png';
+import kopitalk from '../images/logo/kopitalk-logo.webp';
 
 // stylesheets
 import './StudentWelfare.css';
@@ -33,7 +34,8 @@ export default function StudentWelfare() {
             </ul>
           </div>
           <div className="kopi-talk">
-            <h1>Kopi Talk</h1>
+            {/* <h1>Kopi Talk</h1> */}
+            <img src={kopitalk} className="welfare-initiatives-logos kopi-talk-logo" />
             <p>With KopiTalk, we aim to achieve a single yet important goal; to raise awareness and address mental health problems in Malaysian students.</p>
             <p>Our decision making process is informed by comprehensive empirical studies and high quality data evaluation. At the core of the Malaysian dilemma are the social and cultural nuances of its unforgiving society. We hope, that by increasing awareness on subjects considered as taboo by our culture, we would be able to reduce incidence of mental health disorders stemming from these issues!</p>
             <p>At KopiTalk, we'd like to encourage conversations on current dilemmas and issues considered as taboo subjects as means of raising awareness.</p>

@@ -33,27 +33,35 @@
 .koala {
   text-align: justify;
   padding: 2rem;
-  background-color: #bd1e2b;
+  background-color: rgba(189, 30, 43, .5);
   width: 25vw;
-  height: 70vh;
+  min-height: 70vh;
+  height: initial;
   font-size: small;
 }
 
 .kopi-talk {
   text-align: justify;
   padding: 2rem;
-  background-color: #242671;
+  /* background-color: #242671; */
+  background-color: rgba(36, 38, 113, .5);
   width: 25vw;
-  height: 70vh;
+  min-height: 70vh;
+  height: initial;
   font-size: small;
+}
+
+.kopi-talk-logo {
+  width: 7vw;
 }
 
 .meet-n-greet {
   text-align: justify;
   padding: 2rem;
-  background-color: #fdb041;
+  background-color: rgba(253, 176, 65, .5);
   width: 25vw;
-  height: 70vh;
+  min-height: 70vh;
+  height: initial;
   font-size: small;
 }
 
