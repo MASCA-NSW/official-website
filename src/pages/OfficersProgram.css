@@ -1,0 +1,75 @@
+.officers-program-header {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/officers_mascansw18-19.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.officers-program-body {
+  padding: 2rem;
+  background-color: #fdb041;
+}
+
+.officers-program-body p {
+  color: #bd1e2b;
+}
+
+.officers-program-logos {
+  width: 50vw;
+}
+
+.officers-program-info {
+  width: 40vw;
+  margin: auto;
+  background-color: whitesmoke;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: #242671;
+}
+
+.officers-program-info ol {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .officers-program-header {
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('../images/officers_mascansw18-19.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242671;
+    color: white;
+  }
+
+  .officers-program-logos {
+    width: 80vw;
+  }
+
+  .officers-program-info {
+    width: 80vw;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .officers-program-info ol {
+    text-align: left;
+  }
+}

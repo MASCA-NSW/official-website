@@ -10,7 +10,7 @@ import StudentWelfare from './pages/StudentWelfare';
 import CareersDevelopment from './pages/CareersDevelopment';
 import CulturalInitiatives from './pages/CulturalInitiatives';
 import SportsInitiatives from './pages/SportsInitiatives';
-
+import OfficersProgram from './pages/OfficersProgram';
 import StudentDiscounts from './pages/StudentDiscounts';
 
 import './App.css';
@@ -29,7 +29,7 @@ function App() {
           <Route path="/careers-initiatives" component={CareersDevelopment} />
           <Route path="/cultural-initiatives" component={CulturalInitiatives} />
           <Route path="/sports-initiatives" component={SportsInitiatives} />
-          <Route path="/officers-program" />
+          <Route path="/officers-program" component={OfficersProgram} />
           <Route path="/student-discounts" component={StudentDiscounts} />
           <Route path="/student-guide" />
           <Route path="/starter-kit" />
