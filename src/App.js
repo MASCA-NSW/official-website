@@ -12,6 +12,7 @@ import CulturalInitiatives from './pages/CulturalInitiatives';
 import SportsInitiatives from './pages/SportsInitiatives';
 import OfficersProgram from './pages/OfficersProgram';
 import StudentDiscounts from './pages/StudentDiscounts';
+import StudentGuide from './pages/StudentGuide';
 
 import './App.css';
 
@@ -31,7 +32,7 @@ function App() {
           <Route path="/sports-initiatives" component={SportsInitiatives} />
           <Route path="/officers-program" component={OfficersProgram} />
           <Route path="/student-discounts" component={StudentDiscounts} />
-          <Route path="/student-guide" />
+          <Route path="/student-guide" component={StudentGuide} />
           <Route path="/starter-kit" />
           <Route path="/jalan-jalan" />
           <Route path="/cari-makan" />

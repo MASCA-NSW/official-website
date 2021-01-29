@@ -1,0 +1,94 @@
+.student-guide-header {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/commRetreat1819b.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+.student-guide-body {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.student-guide-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.student-guide-info button {
+  color: #242671;
+  background-color: whitesmoke;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.starter-kit {
+  flex: 1;
+  padding: 2rem;
+  background-color: #bd1e2b;
+}
+
+.starter-kit h1 {
+  color: whitesmoke;
+}
+
+.starter-kit p {
+  color: whitesmoke;
+  text-align: justify;
+}
+
+.jalan-jalan {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fdb041;
+}
+
+.jalan-jalan p {
+  text-align: justify;
+}
+
+.cari-makan {
+  flex: 1;
+  padding: 2rem;
+  background-color: #242671;
+}
+
+.cari-makan h1 {
+  color: whitesmoke;
+}
+
+.cari-makan p {
+  color: whitesmoke;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .student-guide-header {
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('../images/commRetreat1819b.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242671;
+    color: white;
+  }
+
+  .student-guide-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
