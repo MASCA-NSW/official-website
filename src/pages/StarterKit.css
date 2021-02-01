@@ -1,0 +1,62 @@
+.starter-kit-header {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  background-image: url('../images/commRetreat1819e.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+.starter-kit-body {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.starter-kit-body button {
+  background-color: #242671;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.pdf-viewer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.pdf-viewer {
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .starter-kit-header {
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image: url('../images/commRetreat1819e.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242671;
+    color: white;
+  }
+
+  .pdf-viewer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+}

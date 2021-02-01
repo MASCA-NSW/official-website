@@ -13,6 +13,7 @@ import SportsInitiatives from './pages/SportsInitiatives';
 import OfficersProgram from './pages/OfficersProgram';
 import StudentDiscounts from './pages/StudentDiscounts';
 import StudentGuide from './pages/StudentGuide';
+import StarterKit from './pages/StarterKit';
 
 import './App.css';
 
@@ -33,7 +34,7 @@ function App() {
           <Route path="/officers-program" component={OfficersProgram} />
           <Route path="/student-discounts" component={StudentDiscounts} />
           <Route path="/student-guide" component={StudentGuide} />
-          <Route path="/starter-kit" />
+          <Route path="/starter-kit" component={StarterKit} />
           <Route path="/jalan-jalan" />
           <Route path="/cari-makan" />
           <Route path="/affiliates-sponsors" />
