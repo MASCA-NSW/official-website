@@ -1,0 +1,112 @@
+export const jalanjalanslides = [
+  {
+    key: 0,
+    id: "bondi",
+    title: "Bondi to Coogee Beach Coastal Walk",
+    description: "Visit not only one, but two of Australia’s beautiful beaches while exercising both your legs and eyes on this scenic 6km path. There is much to do and see along the way as there are plenty of picnic spots, rock pools to explore, parks for the kids (yes, if you’re under 30, you’re still a kid), cafes and restaurants.",
+    moreDescription: "If you’re visiting in the late spring, be sure to check out the free Sculpture by the Sea (http://sculpturebythesea.com/bondi) exhibits near Bondi.",
+    learnMore: "https://www.sydneycoastwalks.com.au/bondi-to-coogee-walk/",
+    photoCredit: "https://unsplash.com/@paulajnaes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+    photographer: "Paula-Jorunn Naes",
+    source: "https://unsplash.com/s/photos/bondi-beach?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+  },
+  {
+    key: 1,
+    id: "sydneyoperahouse",
+    title: "Sydney Opera House",
+    description: "At the top of our list solely because it’s the most iconic location in not only Sydney, but the entire continent of Australia. You could choose to embark on a variety of tours (at a variety of prices of course - $28++ for students), or you could even catch a live show ($60-$300) in this unique feat of architectural design.",
+    moreDescription: "That’s fun and all, but if you’re on a tight budget, consider just catching a stroll around this famous landmark while at the same time, crossing it off your mandatory Selfie checklist. Also good to note that there are heaps of other interesting places to visit only a stone throw away from the Opera House such as the Harbour Bridge and the Rocks, so consider visiting these places on the same day.",
+    learnMore: "https://www.sydneyoperahouse.com/",
+    photoCredit: "https://unsplash.com/@awiy1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+    photographer: "Arvin Wiyono",
+    source: "https://unsplash.com/s/photos/sydney-opera-house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+  },
+  {
+    key: 2,
+    id: "sydneyharbourbridge",
+    title: "Stroll the Sydney Harbour Bridge",
+    description: "If the Bridge Climb (http://www.bridgeclimb.com) for $158++ is too expensive for you, consider the next best thing which is simply to stroll along the pedestrian pathway at the bridge’s eastern edge. We’d recommend you do this while enjoying a beautiful sun set in order to get the most out of this experience. Right after, you could perhaps drop by Luna Park for a few rides!",
+    moreDescription: "There is also the Pylon Lookout at the South East Pylon of the Sydney Harbour Bridge. Try the 200 stairs climb to the lookout 87 metres above sea level, with 3 levels of exhibits about the Sydney Harbour Bridge on the way up. Only $13!",
+    learnMore: "http://www.pylonlookout.com.au/",
+    photoCredit: "https://unsplash.com/@lexmelony?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+    photographer: "Lex Melony",
+    source: "https://unsplash.com/s/photos/sydney-harbour-bridge?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+  },
+  {
+    key: 3,
+    id: "nswartgallery",
+    title: "Art Gallery of NSW",
+    description: "Entry to Sydney’s premier art institution is free (only special exhibits require a fee), with everything from Indigenous to Asian art on display. Wednesday nights are a bonus with free talks and films. Click 'Learn More' for a schedule.",
+    moreDescription: "",
+    learnMore: "https://www.artgallery.nsw.gov.au/",
+    photoCredit: "https://unsplash.com/@samdot?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+    photographer: "sam manchester",
+    source: "https://unsplash.com/s/photos/nsw-art-gallery?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+  },
+  {
+    key: 4,
+    id: "nationalmaritimemuseum",
+    title: "The National Maritime Museum",
+    description: "This is not a museum only for those friends of yours taking Sea Engineering. We believe that stressed out accountants and busy medical students can too de-stress and enjoy the many sensational displays being exhibited here. Resting on the interior of Darling Harbour, tickets are available on arrival at the museum or online. We’d suggest you pre-book online to beat the queues! Some tickets are free, but of course payment is required for the cooler exhibits.",
+    moreDescription: "The Australian National Maritime Museum has thousands of exhibits depicting Australia's history - from seeing what life was like on the convict ships; how Australia 'rode on the whale's back'; how its first submarine fought bravely (and lost) in World World I at Gallipoli; what people packed when they sailed to a new life on these shores; why surfboards have become shorter; and more. There are displays, hands-on exhibits, a cinema and the latest museum computer games. Guided tours at no cost.",
+    learnMore: "https://www.sea.museum/",
+    photoCredit: "https://www.sea.museum/",
+    photographer: "Australian National Maritime Museum",
+    source: "https://mgnsw.org.au/organisations/australian-national-maritime-museum/"
+  },
+  {
+    key: 5,
+    id: "chinesegardenoffriendship",
+    title: "Chinese Garden of Friendship",
+    description: "The garden offers you a peaceful place to just take a stroll and relax in the middle of the bustling city. Running waterfalls, cool lagoons with lotus plants, majestic willow trees and beautiful koi fish all make this garden a great place to while away the time or simply read a book. Also do drop by the Chinese teahouse where you can enjoy some light dishes and a fresh pot of jasmine tea (tea is approx. $4) in the presence of the serene landscape.",
+    moreDescription: "If you’re looking to bring back a memorable photo, an additional $10 will allow you to dress up in Imperial Chinese costumes and walk around the garden. Admission for students is $3.",
+    learnMore: "https://www.darlingharbour.com/precincts/chinese-garden",
+    photoCredit: "https://unsplash.com/@sebbiepie?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+    photographer: "Seb Reivers",
+    source: "https://unsplash.com/s/photos/chinese-garden-of-friendship?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+  },
+  {
+    key: 6,
+    id: "therocksweekendmarket",
+    title: "The Rocks Weekend Market",
+    description: "It is a must while you’re in Sydney to take a stroll through The Rocks, this unique heritage site of restored buildings situated near one of the most gorgeous harbours in the world. To top things off, open every Saturday and Sunday, The Rocks Weekend Market set amid the sandstone buildings, have grown to include more than 200 stalls with products that range from fashion and accessories by emerging designers, locally-produced homewares, linen and beauty products and original photography, art, crafts, and jewellery.",
+    moreDescription: "If shopping is not really for you, do check out the Rocks Discovery Museum. One of the best parts, it’s free. Spend some time across their three floors learning more about the history of the area and the stories of those who lived there during the early years of white Australia.",
+    learnMore: "https://www.therocks.com/",
+    photoCredit: "https://www.therocks.com/whats-on/market-overview",
+    photographer: "The Rocks",
+    source: "https://www.therocks.com/"
+  },
+  {
+    key: 7,
+    id: "sydneyobservatory",
+    title: "The Sydney Observatory",
+    description: "The observatory is a beautiful heritage sandstone building that sits high on Observatory Hill located in the Rocks. If you’re really keen about astronomy, you will enjoy looking through their telescopes and learning about the stars in the 3D space theatre. Learn about the history and development in the fields of astronomy, meteorology and timekeeping as they take you on a tour around the museum.",
+    moreDescription: "General admission is free while the 3D space theatre is $7 and Night viewings (bookings essential) cost $15.",
+    learnMore: "https://maas.museum/sydney-observatory/",
+    photoCredit: "https://www.sydney.com.au/sydney-observatory.htm",
+    photographer: "sydney.com.au",
+    source: "https://www.sydney.com.au/index.htm"
+  },
+  {
+    key: 8,
+    id: "darlingharbour",
+    title: "Catch the fireworks at Darling Harbour",
+    description: "You don’t have to wait for big occasions like New Year’s Eve to see fireworks in Sydney. Just head to Darling Harbour to experience amazing fireworks most Saturday nights. Why? Because it’s the weekend, and it’s time to party! Catch up over hot chocolate at Lindt Café with friends or enjoy a meal at Harbourside while enjoying a free spectacular fireworks show over the bay. Then, complete your perfect night out at Darling Harbour and catch a flick at the IMAX Theatre.",
+    moreDescription: "To find out when the fireworks are showing, check out:",
+    learnMore: "https://www.darlingharbour.com/whats-on/events/fireworks",
+    photoCredit: "https://unsplash.com/@newdawn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+    photographer: "Eriksson Luo",
+    source: "https://unsplash.com/s/photos/darling-harbour?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+  },
+  {
+    key: 9,
+    id: "bluemountain",
+    title: "Blue Mountain",
+    description: "From short walks to day long walks and from highly popular walks to something more secluded, the Blue Mountains has all sorts to offer. For varied scenery, drama and spectacular waterfalls, there's no matching the National Pass Trail of the Valley of the Waters. The Three Sisters Walk, in Katoomba, offers a family-friendly walk with some of the most iconic views in Blue Mountains National Park, and takes you up close to the famous Three Sisters.",
+    moreDescription: "Whichever trail you choose, you’re bound to enjoy a refreshing escape from the city, full of insta-worthy photos to upload.",
+    learnMore: "https://www.bluemts.com.au/",
+    photoCredit: "https://unsplash.com/@isaacbenhesed?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+    photographer: "Isaac Benhesed",
+    source: "https://unsplash.com/s/photos/blue-mountain?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+  },
+]

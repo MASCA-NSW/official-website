@@ -1,0 +1,159 @@
+#jalan-jalan-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#jalan-jalan-container button {
+  background-color: #242671;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  width: 5vw;
+}
+
+.poi {
+  width: 100%;
+  height: 100vh;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.poi-header {
+  margin: 1rem;
+  padding: 2rem;
+  background-color: #242671;
+  color: whitesmoke;
+  width: 50vw;
+  height: 70vh;
+  overflow: auto;
+}
+
+.poi-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 5px;
+}
+
+.poi-actions a {
+  color: whitesmoke;
+}
+
+.learn-more-links {
+  color: #242671;
+  background-color: whitesmoke;
+  margin: 1rem auto;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.photo-credits a {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+#bondi {
+  background-image: url('../images/jalan-jalan/bondi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sydneyoperahouse {
+  background-image: url('../images/jalan-jalan/sydney-opera-house.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sydneyharbourbridge {
+  background-image: url('../images/jalan-jalan/sydney-harbour-bridge.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nswartgallery {
+  background-image: url('../images/jalan-jalan/nsw-art-gallery.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nationalmaritimemuseum {
+  background-image: url('../images/jalan-jalan/national-maritime-museum.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#chinesegardenoffriendship {
+  background-image: url('../images/jalan-jalan/chinese-garden-of-friendship.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#therocksweekendmarket {
+  background-image: url('../images/jalan-jalan/the-rocks-weekend-market.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sydneyobservatory {
+  background-image: url('../images/jalan-jalan/sydney-observatory.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#darlingharbour {
+  background-image: url('../images/jalan-jalan/darling-harbour.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bluemountain {
+  background-image: url('../images/jalan-jalan/blue-mountain.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  #jalan-jalan-container button {
+    background-color: #242671;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 15vw;
+  }
+
+  .poi {
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .poi-header {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #242671;
+    color: whitesmoke;
+    width: 80%;
+    height: 70vh;
+    overflow: scroll;
+  }
+}
