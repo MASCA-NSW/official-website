@@ -106,21 +106,13 @@
     max-width: 100vw;
     min-height: 50vh;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 0 1rem;
     background-image: url('../images/commRetreat1718a.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
-  }
-
-  .greetings-container {
-    align-self: flex-end;
-    margin-bottom: 1rem;
-    text-align: center;
   }
 
   .greetings {

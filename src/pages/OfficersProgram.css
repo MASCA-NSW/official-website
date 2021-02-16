@@ -44,9 +44,7 @@
     max-width: 100vw;
     min-height: 50vh;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 0 1rem;
     background-image: url('../images/officers_mascansw18-19.jpg');
     background-repeat: no-repeat;
