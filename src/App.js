@@ -15,6 +15,7 @@ import StudentDiscounts from './pages/StudentDiscounts';
 import StudentGuide from './pages/StudentGuide';
 import StarterKit from './pages/StarterKit';
 import JalanJalan from './pages/JalanJalan';
+import CariMakan from './pages/CariMakan';
 
 import './App.css';
 
@@ -37,7 +38,7 @@ function App() {
           <Route path="/student-guide" component={StudentGuide} />
           <Route path="/starter-kit" component={StarterKit} />
           <Route path="/jalan-jalan" component={JalanJalan} />
-          <Route path="/cari-makan" />
+          <Route path="/cari-makan" component={CariMakan} />
           <Route path="/affiliates-sponsors" />
         </Switch>
       </Router>

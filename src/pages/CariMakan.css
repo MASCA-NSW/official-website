@@ -1,0 +1,71 @@
+.cari-makan-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdb041;
+  color: whitesmoke;
+  height: 20vh;
+}
+
+.cari-makan-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.halal-places {
+  flex: 1;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links-to-halal-places {
+  background-color: #242671;
+  color: whitesmoke;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.links-to-halal-places:hover {
+  opacity: 0.6;
+}
+
+#sydney {
+  background-image: url('../images/background/dan-sydney-medium.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wollongong {
+  background-image: url('../images/background/wollongong.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#newcastle {
+  background-image: url('../images/background/newcastle.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .cari-makan-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .halal-places {
+    flex: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
