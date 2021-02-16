@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // stylesheets
@@ -10,7 +10,7 @@ import './StudentGuide.css';
 export default function StudentGuide() {
   return (
     <div>
-      <Navbar parentClassName="student-guide-header" />
+      <Header parentClassName="student-guide-header" />
       <div className="student-guide-body">
         <h1>Student Guide</h1>
         <div className="student-guide-info">

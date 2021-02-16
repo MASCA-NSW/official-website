@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // images
@@ -14,7 +14,7 @@ import './SportsInitiatives.css';
 export default function SportsInitiatives() {
   return (
     <div>
-      <Navbar parentClassName="sports-initiatives-header" />
+      <Header parentClassName="sports-initiatives-header" />
       <div className="sports-initiatives-body">
         <h1>Sports & Activities</h1>
         <p>A active lifestyle leads a healthy life. In MASCA, we believe in the importance of maintaining a healthy and active lifestyle while developing a sense of community and camaraderie among fellow Malaysian students. Through our sports and activities initiatives, we hope to achieve this aim with a good sense of sportsmanship.</p>

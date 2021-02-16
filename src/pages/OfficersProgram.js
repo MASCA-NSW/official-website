@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // images
@@ -13,7 +13,7 @@ import './OfficersProgram.css';
 export default function OfficersProgram() {
   return (
     <div>
-      <Navbar parentClassName="officers-program-header" />
+      <Header parentClassName="officers-program-header" />
       <div className="officers-program-body">
         <img src={core} className="officers-program-logos" />
         <h1 className="dark-blue">Council Officers Recruitment (CORE) Program</h1>

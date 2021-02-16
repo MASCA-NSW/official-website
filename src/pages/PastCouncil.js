@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import PastCouncilYear from '../components/PastCouncilYear';
 import Footer from '../components/Footer';
 
@@ -30,7 +30,7 @@ import './PastCouncil.css';
 export default function PastCouncil() {
   return (
     <div>
-      <Navbar parentClassName="past-council-header" />
+      <Header parentClassName="past-council-header" />
       <PastCouncilYear
         parentClassName="past-council-1920"
         whichYear="2019/2020"

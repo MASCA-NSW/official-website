@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // stylesheets
@@ -10,7 +10,7 @@ import './CulturalInitiatives.css';
 export default function CulturalInitiatives() {
   return (
     <div>
-      <Navbar parentClassName="cultural-initiatives-header" />
+      <Header parentClassName="cultural-initiatives-header" />
       <div className="cultural-initiatives-body">
         <h1>Cultural Connection</h1>
         <p>Being a Malaysian student organisation, we hope to share and promote the practice of cultural exchange between Malaysian, Australian or any foreign community. We also wish to showcase and share the beauty of the Malaysian culture to a wider global audience.</p>

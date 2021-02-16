@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Alert from '../components/Alert';
 import EventCard from '../components/EventCard';
@@ -17,7 +17,7 @@ import './Events.css';
 export default function Events() {
   return (
     <div>
-      <Navbar parentClassName="events-header"/>
+      <Header parentClassName="events-header"/>
       <div className="alert">
         <Alert message={<h1>We will update our events soon.<br/>Tune in to <u><a href="https://www.facebook.com/mascansw">our Facebook page</a></u> to get the latest updates!</h1>} />
         <h3>Below are some events from past years:</h3>

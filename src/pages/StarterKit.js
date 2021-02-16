@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // data
@@ -44,7 +44,7 @@ export default function StarterKit() {
 
   return (
     <div>
-      <Navbar parentClassName="starter-kit-header" />
+      <Header parentClassName="starter-kit-header" />
       <div className="starter-kit-body">
         <h1>New to NSW Student Guide</h1>
         <p>First time settling-in in New South Wales and not sure where to begin? Upon arrival we recommend registering at your university to obtain a Student ID, followed by setting up a bank account at a branch close to the university, then get yourself a mobile phone plan and start inspecting for houses and filling in rental application form.</p>

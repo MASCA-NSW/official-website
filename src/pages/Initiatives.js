@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Alert from '../components/Alert';
 import MemoryLane from '../components/MemoryLane';
@@ -37,7 +37,7 @@ import './Initiatives.css';
 export default function Initiatives() {
   return (
     <div>
-      <Navbar parentClassName="initiatives-header" />
+      <Header parentClassName="initiatives-header" />
       <div className="alert">
         <Alert message={<h1>We will update our initiatives soon.<br/>Tune in to <u><a href="https://www.facebook.com/mascansw">our Facebook page</a></u> to get the latest updates!</h1>} />
         <h3>Below are some initiatives from past years:</h3>

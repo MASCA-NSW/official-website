@@ -9,7 +9,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import CouncilMemberCard from '../components/CouncilMemberCard';
 import Alert from '../components/Alert';
 import Footer from '../components/Footer';
@@ -29,7 +29,7 @@ const currentYear = new Date().getFullYear();
 export default function About() {
   return (
     <div>
-      <Navbar parentClassName="about-header" />
+      <Header parentClassName="about-header" />
       <div className="about-masca">
         <h1 className="about-masca-title dark-blue">About MASCA</h1>
         <p>

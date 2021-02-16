@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import HomeTitle from '../components/HomeTitle';
 import MemoryLane from '../components/MemoryLane';
 import AffiliatesSponsors from '../components/AffiliatesSponsors';
@@ -38,7 +38,7 @@ import './Home.css';
 export default function Home() {
   return (
     <div>
-      <Navbar parentClassName="home-header" />
+      <Header parentClassName="home-header" />
       <HomeTitle
         string='We are charting the way for Malaysians Down Under'
         delay={50}

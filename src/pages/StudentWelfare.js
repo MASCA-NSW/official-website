@@ -1,7 +1,7 @@
 import React from 'react';
 
 // our own components
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // images
@@ -14,7 +14,7 @@ import './StudentWelfare.css';
 export default function StudentWelfare() {
   return (
     <div>
-      <Navbar parentClassName="sw-header" />
+      <Header parentClassName="sw-header" />
       <div className="sw-body">
         <h1>Student Welfare</h1>
         <p>As one of the seven pillars of MASCA, we strive to ensure the welfare of the Malaysian student community within the State by providing assistance with their support system, health, accommodation and social integration into university as well as life in NSW through initiatives such as KOALA, Meet & Greet & Kopitalk.</p>
