@@ -16,6 +16,9 @@ import StudentGuide from './pages/StudentGuide';
 import StarterKit from './pages/StarterKit';
 import JalanJalan from './pages/JalanJalan';
 import CariMakan from './pages/CariMakan';
+import SydneyHalalPlaces from './pages/SydneyHalalPlaces';
+import WollongongHalalPlaces from './pages/WollongongHalalPlaces';
+import NewcastleHalalPlaces from './pages/NewcastleHalalPlaces';
 
 import './App.css';
 
@@ -23,7 +26,7 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <Switch>
+        {/* <Switch> */}
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/past-council" component={PastCouncil} />
@@ -38,9 +41,12 @@ function App() {
           <Route path="/student-guide" component={StudentGuide} />
           <Route path="/starter-kit" component={StarterKit} />
           <Route path="/jalan-jalan" component={JalanJalan} />
-          <Route path="/cari-makan" component={CariMakan} />
+          <Route exact path="/cari-makan" component={CariMakan} />
+          <Route path="/cari-makan/sydney" component={SydneyHalalPlaces} />
+          <Route path="/cari-makan/wollongong" component={WollongongHalalPlaces} />
+          <Route path="/cari-makan/newcastle" component={NewcastleHalalPlaces} />
           <Route path="/affiliates-sponsors" />
-        </Switch>
+        {/* </Switch> */}
       </Router>
     </div>
   );

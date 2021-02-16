@@ -1,0 +1,26 @@
+.sydney-halal-places-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.sydney-halal-places {
+  flex: 1;
+  width: auto;
+  height: 85vh;
+  border: 1px solid #242671;
+}
+
+@media screen and (max-width: 600px) {
+  .sydney-halal-places-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sydney-halal-places {
+    flex: auto;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #242671;
+  }
+}
