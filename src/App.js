@@ -19,6 +19,7 @@ import CariMakan from './pages/CariMakan';
 import SydneyHalalPlaces from './pages/SydneyHalalPlaces';
 import WollongongHalalPlaces from './pages/WollongongHalalPlaces';
 import NewcastleHalalPlaces from './pages/NewcastleHalalPlaces';
+import AffiliatesSponsors from './pages/AffiliatesSponsors';
 
 import './App.css';
 
@@ -45,7 +46,7 @@ function App() {
           <Route path="/cari-makan/sydney" component={SydneyHalalPlaces} />
           <Route path="/cari-makan/wollongong" component={WollongongHalalPlaces} />
           <Route path="/cari-makan/newcastle" component={NewcastleHalalPlaces} />
-          <Route path="/affiliates-sponsors" />
+          <Route path="/affiliates-sponsors" component={AffiliatesSponsors}/>
         {/* </Switch> */}
       </Router>
     </div>

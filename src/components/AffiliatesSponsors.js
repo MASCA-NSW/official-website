@@ -4,7 +4,7 @@ import React from 'react';
 import AffiliatesSponsorCard from './AffiliateSponsorCard';
 
 // sponsors logo
-import gamuda from '../images/sponsors/gamuda.webp';
+import gamuda from '../images/sponsors/gamuda.png';
 import tfm from '../images/sponsors/tfm-logo.png';
 import ema from '../images/sponsors/ema.webp';
 import aug from '../images/sponsors/aug-logo.png';
