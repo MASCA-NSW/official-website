@@ -1,19 +1,14 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MASCA NSW",
+  "name": "The official website of Malaysian Students' Council of Australia New South Wales Chapter",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "MASCANSW-logo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
+      "src": "MASCANSW-logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
